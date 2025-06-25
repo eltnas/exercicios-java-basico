@@ -1,13 +1,15 @@
 import java.util.Scanner;
 
-public class Exercicio05 {
+public class Exercicio01 {
 
     /*********************
      *
-     * -- Estrutura de controle em Java --
+     * -- Fundamentos da Liguagem de Programação Java --
      *
-     *  Escreva um código onde o usuário entra com um número
-     *  e seja gerada a tabuada de 1 até 10 desse número;
+     *  Escreva um código que receba o nome e o ano de nascimento de alguém
+     *  e imprima na tela a seguinte mensagem:
+     *
+     *      "Olá 'Fulano' você tem 'X' anos"
      *
      *********************/
 
@@ -23,5 +25,4 @@ public class Exercicio05 {
         }
 
     }
-
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio07 {
+public class Exercicio03 {
 
     /*********************
      *
@@ -13,7 +13,7 @@ public class Exercicio07 {
      *
      *********************/
 
-    public void contaNumero(){
+    public static void main(String[] args){
         var sc = new Scanner(System.in);
         int num1, num2;
         String op;
@@ -62,11 +62,6 @@ public class Exercicio07 {
                 System.out.println("Valor invalido!");
                 break;
         }
-    }
-
-    public static void main(String[] args){
-        var obj = new Exercicio07();
-        obj.contaNumero();
     }
 
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Locale;
 
-public class Exercicio06 {
+public class Exercicio02 {
 
     /*********************
      *
@@ -20,7 +20,7 @@ public class Exercicio06 {
      *
      *********************/
 
-    public void calcIMC(){
+    public static void main (String[] args){
         
         var sc = new Scanner(System.in).useLocale(Locale.US);
 
@@ -32,7 +32,7 @@ public class Exercicio06 {
         Float peso = sc.nextFloat();
         sc.nextLine();
 
-        Float imc = peso/(altura * altura);
+        Float imc = peso/(altura * altura);var
         System.out.printf("Seu IMC é: %.2f%n", imc);
 
         if (imc <= 18.5) {
@@ -52,10 +52,4 @@ public class Exercicio06 {
         sc.close(); 
 
     }
-
-    public static void main (String[] args){
-        Exercicio06 imc = new Exercicio06();
-        imc.calcIMC();
-    }
-
 }
